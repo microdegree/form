@@ -45,6 +45,16 @@ img{
     padding:3px;
   }
 
+  .practice {
+    margin-top: 50px;
+    color:white;
+    background-color:tan;
+    display:block;
+    width:40%;
+    padding:5px;
+    text-decoration: none;
+  }
+
   /* BUTTONS */
   input[type=submit]{
     background-color:forestgreen;
@@ -53,7 +63,33 @@ img{
     border-radius:10px;
 
   }
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
 
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  
   
  
  
