@@ -1,0 +1,58 @@
+
+  .form{
+    width:50%;
+    text-align: start;
+  }
+
+  label{
+    display:block;
+    color:#4d4641;
+    margin:16px 0 3px;
+  }
+  fieldset label{
+    display:inline-block;
+    font-size:85%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea,
+  select{
+    width:100%;
+    padding:5px;
+    box-sizing:border-box;
+    background-color:#cccac3;
+    border: solid 1px #cfcfcf;
+  }
+  textarea{
+    resize: vertical;
+    min-height: 70px;
+  }
+  fieldset{
+    border:none;
+    margin:20px 0 ;
+    padding:10px 0;
+    border-bottom: 1px solid tan;
+  }
+  legend{
+    color:white;
+    background-color:tan;
+    display:block;
+    width:100%;
+    padding:3px;
+  }
+
+  /* BUTTONS */
+  input[type=submit]{
+    background-color:forestgreen;
+    color:white;
+    padding: 6px 20px;
+    border-radius:10px;
+
+  }
+
+  
+ 
+ 
+  

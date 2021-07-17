@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <center>
+    <form action="#" method="post" class="form">
+     
+          <label for="your_name">Name</label>
+          <input type="text" id="your_name" name="yourname"/>
+          <label for="your_email">Email</label>
+          <input type="email" id="your_email" name="youremail" />
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label><input type="radio" name="cheese" value="less" />Male</label>
+                <label><input type="radio" name="cheese" value="extra"/>Female</label>
+                <label><input type="radio" name="cheese" value="none" />Other</label>
+            </fieldset>
+          
+          <label for="your_phone">Mobile(10 Digits)</label>
+          <input type="tel" id="your_phone" name="yourphone" />
+          
+          <label for="birthday">Date of Birth</label>
+          <input type="date" id="birthday" name="birthday">
+          
+          <label for="notes">Subjects</label>
+          <textarea id="notes" name="subjects"></textarea>
+
+            <fieldset>
+                <legend>Hobbies</legend>
+                <label><input type="checkbox" name="sports" value="sports"/>Sports</label>
+                <label><input type="checkbox" name="reading"  value="reading"/>Reading</label>
+                <label><input type="checkbox" name="music"  value="music"/>Music</label>
+            </fieldset>
+
+            <label for="address">Current Address</label>
+            <textarea id="address" name="address"></textarea>
+
+            <label for="crusttype">State and City</label>
+            <select id="crusttype" name="crust">
+            <option value="wheat">Karnataka</option>
+            <option value="white">Kerala</option>
+            <option value="thin">Tamilnadu</option>
+            </select>
+
+            </br></br>
+
+            <input type="submit" value="Submit" />
+    
+      </form>
+    </center>
+</body>
+</html>
